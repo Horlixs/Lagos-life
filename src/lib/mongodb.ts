@@ -93,7 +93,7 @@ let inMemoryStore: LocalStore = {
     isLive: true,
     maintenanceMessage: "",
     killSwitch: false,
-    killSwitchMessage: "Ozama is currently offline for system maintenance. Please check back shortly.",
+    killSwitchMessage: "Horlixs is currently offline for system maintenance. Please check back shortly.",
     maxCapacity: 20,
     updatedAt: new Date().toISOString(),
   },
@@ -447,7 +447,7 @@ export const dbAdapter = {
               isLive: doc.isLive ?? true,
               maintenanceMessage: doc.maintenanceMessage || "",
               killSwitch: doc.killSwitch ?? false,
-              killSwitchMessage: doc.killSwitchMessage || "Ozama is currently offline for system maintenance. Please check back shortly.",
+              killSwitchMessage: doc.killSwitchMessage || "Horlixs is currently offline for system maintenance. Please check back shortly.",
               maxCapacity: typeof doc.maxCapacity === "number" && doc.maxCapacity > 0 ? Math.floor(doc.maxCapacity) : 20,
               updatedAt: doc.updatedAt || new Date().toISOString(),
             };
@@ -462,7 +462,7 @@ export const dbAdapter = {
           isLive: true,
           maintenanceMessage: "",
           killSwitch: false,
-          killSwitchMessage: "Ozama is currently offline for system maintenance. Please check back shortly.",
+          killSwitchMessage: "Horlixs is currently offline for system maintenance. Please check back shortly.",
           maxCapacity: 20,
           updatedAt: new Date().toISOString(),
         };
@@ -495,7 +495,7 @@ export const dbAdapter = {
       isLive: true,
       maintenanceMessage: "",
       killSwitch: false,
-      killSwitchMessage: "Ozama is currently offline for system maintenance. Please check back shortly.",
+      killSwitchMessage: "Horlixs is currently offline for system maintenance. Please check back shortly.",
       maxCapacity: 20,
       updatedAt: now,
     };

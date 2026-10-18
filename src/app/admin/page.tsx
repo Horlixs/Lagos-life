@@ -65,7 +65,7 @@ export default function AdminDashboardPage() {
     isLive: true,
     maintenanceMessage: "",
     killSwitch: false,
-    killSwitchMessage: "Ozama is currently offline for system maintenance. Please check back shortly.",
+    killSwitchMessage: "Horlixs is currently offline for system maintenance. Please check back shortly.",
     maxCapacity: 20,
     updatedAt: "",
   });
@@ -166,7 +166,7 @@ export default function AdminDashboardPage() {
           setTempKillSwitch(data.systemStatus.killSwitch || false);
           setTempKillSwitchMsg(
             data.systemStatus.killSwitchMessage ||
-              "Ozama is currently offline for system maintenance. Please check back shortly."
+              "Horlixs is currently offline for system maintenance. Please check back shortly."
           );
           setTempMaxCapacity(data.systemStatus.maxCapacity ?? 20);
         }
@@ -361,7 +361,7 @@ export default function AdminDashboardPage() {
               🔥
             </div>
             <h1 className="text-xl sm:text-2xl font-bold font-display tracking-tight text-white flex items-center justify-center gap-2">
-              Ozama <span>Swarm Command</span>
+              Horlixs <span>Swarm Command</span>
             </h1>
             <p className="text-xs text-slate-400 mt-1">Authorized personnel only. Enter root access password.</p>
           </div>
@@ -436,7 +436,7 @@ export default function AdminDashboardPage() {
             <div className="min-w-0">
               <div className="flex items-center gap-1.5 flex-wrap">
                 <span className="font-display font-bold text-sm sm:text-base text-white tracking-tight truncate">
-                  Ozama
+                  Horlixs
                 </span>
                 <span className="px-1.5 py-0.2 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[9px] sm:text-[10px] font-mono font-bold tracking-wider uppercase">
                   Admin

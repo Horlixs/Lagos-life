@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Horlixs 🔥 - Lagos Life Swarm Funding Portal
+
+A high-performance Next.js application that coordinates autonomous bot swarms to disburse funds to verified players on **Lagos Life** with anti-cheat tolerance and intelligent rate-limit mitigation.
+
+## Features
+
+- **Anti-Cheat Safe Chunking**: Dynamically partitions high-value funding requests into safe sub-deltas ($\le$ ₦15M) to prevent triggering server-side refusal thresholds.
+- **2,700+ Swarm Bot Pool**: Rotates across a wide pool of authenticated accounts with cooldown tracking and failure recovery.
+- **Real-Time Telemetry**: Live order tracking, batch status indicators, and mobile-responsive administration dashboard.
+- **Multi-Store Support**: Dual-mode data persistence featuring automatic failover between MongoDB Atlas and local disk storage.
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Run locally**:
+   ```bash
+   npm run dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) to view the portal.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Admin Dashboard
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Access the Command Dashboard at `/admin` to monitor telemetry, review user distributions, manage IP blocks, and control the global kill switch.

@@ -19,8 +19,8 @@ const FIRE_EMOJI_SVG =
   "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ozama-seven.vercel.app"),
-  title: "Ozama 🔥",
+  metadataBase: new URL("https://lagos-life.vercel.app"),
+  title: "Horlixs 🔥",
   description: "Fund your lagos life account here.",
   icons: {
     icon: [
@@ -42,12 +42,12 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Ozama 🔥",
+    title: "Horlixs 🔥",
     description: "Fund your lagos life account here.",
   },
   twitter: {
     card: "summary",
-    title: "Ozama 🔥",
+    title: "Horlixs 🔥",
     description: "Fund your lagos life account here.",
   },
 };

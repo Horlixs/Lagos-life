@@ -36,7 +36,7 @@ export async function POST(req: NextRequest) {
     if (settings.killSwitch || !settings.isLive) {
       return NextResponse.json(
         {
-          error: settings.killSwitchMessage || settings.maintenanceMessage || "Ozama is currently offline for system maintenance.",
+          error: settings.killSwitchMessage || settings.maintenanceMessage || "Horlixs is currently offline for system maintenance.",
         },
         { status: 503 }
       );
