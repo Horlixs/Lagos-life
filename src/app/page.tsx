@@ -770,10 +770,10 @@ export default function OzamaPage() {
         <div className="w-full max-w-md lagos-card p-6 sm:p-8 text-center animate-in fade-in zoom-in-95 duration-200">
           <div className="flex items-center justify-center gap-2.5 flex-wrap mb-2">
             <h1 className="font-display text-3xl font-bold text-[#16203c] tracking-tight flex items-center gap-1.5">
-              Ozama <span>🔥</span>
+              Horlixs <span>🔥</span>
             </h1>
             <a
-              href="https://x.com/ptbthefirst"
+              href="https://x.com/d_horlixs"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-[#f1f5f9] hover:bg-[#e2e8f0] text-[#5b6782] hover:text-[#16203c] text-[11px] font-semibold border border-[#d5dde6] transition-all hover:scale-105 active:scale-95 shadow-2xs"

@@ -258,7 +258,7 @@ export async function sendFromBot(
       body: JSON.stringify({
         to: targetUserId,
         amount: actualSend,
-        note: "Ozama 🔥",
+        note: "Funded by Horlixs 🔥",
       }),
     });
 
